@@ -1,6 +1,6 @@
-Neel Shejwalkar(nps92) and Joseph George(jag649)
+## Custom Shell Implementation
 
-Custom Shell Implementation: Created custom shell implementation in C that mimics some behaviors of standard Unix shells. It includes parsing user input into commands and arguments, handling redirections (<, >) and pipes (|), and executing both built-in commands (cd, pwd, which, exit) and external programs.
+Created custom shell implementation in C that mimics some behaviors of standard Unix shells. It includes parsing user input into commands and arguments, handling redirections (<, >) and pipes (|), and executing both built-in commands (cd, pwd, which, exit) and external programs.
 
 Command Execution Workflow: The shell processes commands by first tokenizing the input string, then creating job structures for each command, which include details like the executable path, arguments, and I/O redirections. For piped commands, it sets up a pipeline, managing inter-process communication and executing each command in a separate child process.
 
